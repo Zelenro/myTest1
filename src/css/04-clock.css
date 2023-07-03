@@ -1,0 +1,66 @@
+.calendar {
+}
+.date__style {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+
+  margin-bottom: 30px;
+}
+.date__day {
+  margin-left: 30px;
+}
+.date {
+  margin-left: 30px;
+}
+.date__month {
+  margin-left: 30px;
+}
+.date__year {
+  margin-left: 30px;
+}
+.clock {
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/clock-face-time-digital-clock-number-clock-a274e8426c7fa20fa6da28b8e4b24d4e.png);
+  background-color: fafafa;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 500px;
+}
+.clock__arrow {
+  position: absolute;
+  background-color: black;
+  transform-origin: bottom;
+  transform: translateX(-50%);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.clock__seconds__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 5px;
+  height: 45%;
+}
+.clock__minutes__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 10px;
+  height: 35%;
+}
+.clock__hours__arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 20px;
+  height: 25%;
+}
+.clock__center {
+  position: absolute;
+  background-color: black;
+  top: 237px;
+  left: 240px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
