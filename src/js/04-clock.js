@@ -45,6 +45,8 @@ setInterval(() => {
 
   const changeSeconds = (360 / 60) * currentSecond;
   const changeMinutes = (360 / 60) * currentMinutes;
+  // const changeMinutes =    (360 / 60) * currentMinutes + (360 / 3600) * currentSecond;
+
   const changeHours =
     (360 / 12) * currentHour + (360 / 12 / 60) * currentMinutes;
 
